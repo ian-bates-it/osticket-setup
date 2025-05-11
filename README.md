@@ -2,16 +2,19 @@
 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1" height="30%" width="30%"/>
+<img src="https://github.com/user-attachments/assets/8cf1eaae-fbac-49a4-bbbb-11c28e64aa98" height="30%" width="30%"/>
 </p>
 
-<br />
-<br />
-
+<!--
+https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
+-->
 
 ---
 
 ## Install osTicket Software
+
+
+- The installation files at this download link were aggregated from the osTicket Documentation. (16:38)
 
 <br />
 <br />
@@ -166,7 +169,117 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 <br />
 
 
-<h2>Create the directory C:\PHP</h2>
+<h2>Create A Directory called `PHP` on the C Drive (`C:\PHP`)</h2>
+
+- Create a new directory on the C Drive named `PHP`
+
+  <img src="https://github.com/user-attachments/assets/c949e470-bf03-4f25-abd0-5213f13f272c" height="50%" width="50%" />
+
+<br />
+<br />
+
+- Extract the zipped PHP file `php-7.3.8-nts-Win32-VC15-x86.zip` to our new `C:\PHP` directory
+- This will download the binaries and files required for PHP.
+
+  <img src="https://github.com/user-attachments/assets/65081e12-2ee0-4487-9f7a-7a296bea0b07" height="50%" width="50%" />
+
+
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Install C++ Distributable `VC_redis.x86.exe` </h2>
+
+- This is another requirement for osTicket.
+
+
+- Double-click the `VC_redis.x86.exe` installation file.
+- Agree to the license terms and conditions
+- Click the `Install` button as shown below.
+
+  <img src="https://github.com/user-attachments/assets/0922d4f5-e0d3-4611-99c7-efc37e185028" height="70%" width="70%" />
+
+<br />
+<br />
+- Let the installation run and then click `Close` after the installation is successfully completed as shown below.
+
+
+  <img src="https://github.com/user-attachments/assets/36610a14-11f7-4338-83ff-f88187d231a6" height="50%" width="50%" />
+
+
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Install MySQL version 5.5.62 `mysql-5.5.62-win32.msi` </h2>
+
+- This is another requirement for osTicket.
+- This will store all the ticketing accounts on the back end.
+
+
+
+- Double-click the `mysql-5.5.62-win32.msi` installation file.
+- In the `MySQL Server Setup Wizard`, click the `Next` button
+
+
+  <img src="https://github.com/user-attachments/assets/56a42cf5-57c3-4bf4-a869-1e1f43d9f10c" height="50%" width="50%" />
+
+
+<br />
+<br />
+
+<h4>Accept the GNU Public License</h4>
+
+- Accept the GNU license and click the `Next` button
+
+
+  <img src="https://github.com/user-attachments/assets/d0f077f9-cc29-4643-aa1d-4359083039ae" height="50%" width="50%" />
+
+<br />
+<br />
+
+
+<h4>Select Typical Setup Type</h4>
+
+- Select the `X` Setup Type button as shown below.
+
+
+  <img src="https://github.com/user-attachments/assets/f330fe06-4fa0-410e-8d28-b310884bf808" height="50%" width="50%" />
+
+
+<br />
+<br />
+
+<h4>Install</h4>
+
+- CLick the `Install` button as shown below.
+
+  <img src="https://github.com/user-attachments/assets/2eb69b21-2d20-4da7-a638-843f88832fa7" height="50%" width="50%" />
+
+
+<h4>MySQL Server Installation Complete</h4>
+
+- Click the `Finish` button to complete the process as shown below.
+
+  <img src="https://github.com/user-attachments/assets/f25efa5f-7392-42cc-8080-a8147fd9cb26" height="50%" width="50%" />
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Next Step </h2>
+
 
 
 
