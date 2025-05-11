@@ -127,7 +127,46 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 
 
 
+---
+---
+<br />
+<br />
 
+
+<h2>Install the IIS URL Rewrite Module</h2>
+
+- From the installation file, double-click the IIS URL Rewrite Module installer, named `rewrite_amd64_en-US.msi`, as shown below.
+
+<br />
+  <img src="https://github.com/user-attachments/assets/41793b4b-7792-48bd-9de6-a0247b474ea3" height="60%" width="60%" />
+
+
+<br />
+- Accept the terms of the License Agreement.
+- Click the `Install` button as shown below.
+
+
+<br />
+  <img src="https://github.com/user-attachments/assets/9c552bdf-ca9c-4588-9c50-75d7ccbbcece" height="50%" width="50%" />
+
+
+<h4>IIS URL Rewrite Module Completed</h4>
+
+- After the installation is complete, select the `Done` button to complete the process as shown below.
+
+<br />
+  <img src="https://github.com/user-attachments/assets/b0b69e1b-a998-40d7-be19-3cc896b89631" height="50%" width="50%" />
+
+
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Create the directory C:\PHP</h2>
 
 
 
