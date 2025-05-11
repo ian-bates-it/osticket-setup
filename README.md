@@ -521,7 +521,225 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 
 ---
 
-<h2>Reload IIS (Open, Stop and Start the IIS Server)</h2>
+<h2>Browse Port 80 (`http`) in IIS Manager</h2>
+
+**In the left-hand menu in ISS Manager**
+- - Go to sites
+    - Default
+        - osTicket
+            - On the right-hand column, click `Browse *:80` as shown below.
+
+<br />
+<br />
+
+1. Navigate to `Sites > Default Web Site > osTicket` in the left-hand column of IIS Manager. 
+2. Click on the `Browse *:80 (http)` link in the right-hand column of ISS Manager as shown below.
+
+  <img src="https://github.com/user-attachments/assets/07488ce8-10e0-4a21-93a6-11f9c8ad34b5" height="60%" width="60%" />
+
+<br />
+<br />
+<br />
+
+3. View the default osTicket landing page in the Edge Browser. (`localhost/osTIcket/setup`)
+
+  <img src="https://github.com/user-attachments/assets/d56c343b-d3db-47d2-b722-4c665d8ea251" height="60%" width="60%" />
+
+
+
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Enable Missing Extensions For osTicket</h2>
+
+- osTicket provides a list of extensions which are not yet enabled on the default landing page (`localhost/osTIcket/setup`) and shown below.
+
+  <img src="https://github.com/user-attachments/assets/d87a6bc3-626a-4391-bcf6-062b8be73140" height="50%" width="50%" />
+
+<br />
+<br />
+
+**We will enable these three extensions as shown below**
+1. Enable IMAP extension (`php_imap.dll`).
+2. Enable Internationalization extension (`php_intl.dll`).
+3. Enable OP Cache extension (`php_opcache.dll`).
+
+
+
+<br />
+<br />
+<br />
+
+---
+
+<h3>Enable Extensions in osTicket Home View in IIS Manager</h3>
+
+1. Navigate to the osTicket Home view in IIS Manager by going to `Sites > Default Web Site > osTicket`.
+2. Double-click the PHP Manager icon as shown below.
+
+  <img src="https://github.com/user-attachments/assets/bdd0ae9b-cfce-4199-acf0-052f3c78a283" height="60%" width="60%" />
+
+
+<br />
+<br />
+<br />
+
+3. Click on the `Enable or disable an extension` link in PHP Manager as shown below.
+
+  <img src="https://github.com/user-attachments/assets/2c9fcd13-ad97-4570-9a92-f3aef8493031" height="60%" width="60%" />
+
+
+<br />
+<br />
+<br />
+
+<h4>Enable PHP IMAP (`php_imap.dll`)</h4>
+
+4. Enable PHP IMAP by right-clicking on `php_imap.dll` in the disabled list and selecting `Enable` as shown below.
+
+
+  <img src="https://github.com/user-attachments/assets/c8bc0e9d-645c-44bb-972b-8fde32a3c3d1" height="60%" width="60%" />
+
+<br />
+<br />
+<br />
+
+
+<h4>Enable PHP Internationalization extension (`php_intl.dll`)</h4>
+
+5. Enable PHP IMAP by right-clicking on `php_intl.dll` in the disabled list and selecting `Enable` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/bf4d03ab-d23b-4d94-9f33-223bd038a2ba" height="60%" width="60%" />
+
+
+
+<br />
+<br />
+<br />
+
+
+<h4>Enable PHP OP Cache extension (`php_opcache.dll`)</h4>
+
+6. Enable PHP OP Cache by right-clicking on `php_opcache.dll` in the disabled list and selecting `Enable` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/e0d02d9f-c55d-48a6-9b1b-0c600f58dc4a" height="60%" width="60%" />
+
+
+<br />
+<br />
+
+- In our Edge tab, we can refresh the osTicket setup page (`localhost/osTIcket/setup`) to see that our desired extensions have been enabled.
+
+  <img src="https://github.com/user-attachments/assets/0ea0604c-78ac-4ce9-bde9-3d5a2727c7c5" height="50%" width="50%" />
+
+
+
+
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Rename `ost-sampleconfig.php` to `ost-config.php`</h2>
+
+
+1. In File Explorer, navigate to `C:\inetpub\wwwroot\osTicket\include`
+2. Right-click on `ost-sampleconfig.php`
+3. Select `Rename` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/c671294f-24b8-4311-9f16-c29c06bf4396" height="60%" width="60%" />
+
+
+<br />
+<br />
+
+Now our file has been changed to `ost-config.php`
+
+  <img src="https://github.com/user-attachments/assets/264bc34c-0e11-470e-83c4-eb83606ad469" height="60%" width="60%" />
+
+
+
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Assign Desired Permissions To `ost-config.php`</h2>
+
+- We have to assign permissions to `ost-config.php` to allow osTicket to be able to make changes to this file on the backend.
+- To do so, follow these steps.
+
+
+1. Right-click `ost-config.php`.
+2. Select `Properties`.
+
+  <img src="https://github.com/user-attachments/assets/e22d4285-a3f7-4acb-aac5-cc0663e89125" height="40%" width="40%" />
+
+
+
+<br />
+<br />
+<br />
+
+
+3. In the `ost-config.php Properties` dialog box, select `Security Tab`.
+4. Then click the `Advanced` button as shown below.
+
+  <img src="https://github.com/user-attachments/assets/cd482b1b-c2fd-4db7-b052-86633d670d9d" height="40%" width="40%" />
+
+
+<br />
+<br />
+<br />
+
+
+5. We want to disable inheritance to strip all the current permissions away. To do this, click the `Disable inheritance` button
+
+  <img src="https://github.com/user-attachments/assets/a5493f1d-191c-4d33-a710-07145e489995" height="50%" width="50%" />
+
+<br />
+<br />
+<br />
+
+
+6. In the pop-up window, select the option to `Remove all inherited permissions from this objet` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/25ed0edc-5ae8-4a20-938b-a33388f83ff6" height="40%" width="40%" />
+
+<br />
+<br />
+<br />
+
+
+7. Now we have removed all inherited permissions from `ost-config.php` and we are ready to assign our desired permissions to `ost-config.php` by clicking the `Add` button as shown below.
+
+  <img src="https://github.com/user-attachments/assets/641e8e03-bfa7-49ca-addb-bf5c47aee87b" height="40%" width="40%" />
+
+
+<br />
+<br />
+<br />
+
+
+8. Click the `Select a principal` link as shown below. 
+
+    <img src="https://github.com/user-attachments/assets/bc2c6a2c-3a3f-4e35-b935-98f54b54f444" height="50%" width="50%" />
+
+
+<br />
+<br />
+<br />
 
 
 
