@@ -742,6 +742,55 @@ Now our file has been changed to `ost-config.php`
 <br />
 
 
+9. Add `Everyone` to the `Enter the object name to select` field. 
+    - ONLY FOR TESTING PURPOSES. 
+    - We would not do this in a production environment. 
+10. Click the `Check Names` button to confirm. 
+11. Click `OK` button
+
+    <img src="https://github.com/user-attachments/assets/4c3024a8-a421-4c67-a2dc-917f73595f64" height="50%" width="50%" />
+
+
+<br />
+<br />
+<br />
+
+
+12. Finally, in the Permission Entry for `ost-config.php` Dialog Box, select `Full Control` as the Basic permissions settings as shown below.
+    - This will automatically select all the other permission check boxes since we are granting full control. 
+13. Press the `OK` button to save our changes. 
+
+
+    <img src="https://github.com/user-attachments/assets/117ce8bf-a556-45f3-b457-fb9396efd662" height="50%" width="50%" />
+
+
+<br />
+<br />
+
+
+
+<h4>Advanced Security Settings for ost-config.php</h4>
+
+- The final settings for `ost-config.php` for testing purposes only, has granted Everyone full control as shown below.
+
+14. To apply our changes, click the `Apply` button
+15. Finally, click the `OK` button to complete this process as shown below. 
+
+    <img src="https://github.com/user-attachments/assets/e54ab8f0-a15c-45b6-84cb-5974b413ab79" height="50%" width="50%" />
+
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Setup osTicket Installer via browser at `localhost/osTIcket/setup`</h2>
+
+- In the edge browser at the address `localhost/osTIcket/setup` we can complete the osTicket installation process by clicking the `Continue >` button as shown below.
+
+    <img src="https://github.com/user-attachments/assets/e2186525-b7e6-4102-b377-164bdbd5816a" height="60%" width="60%" />
 
 
 
