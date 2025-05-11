@@ -260,25 +260,113 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 
 <h4>Install</h4>
 
-- CLick the `Install` button as shown below.
+- Click the `Install` button as shown below.
 
   <img src="https://github.com/user-attachments/assets/2eb69b21-2d20-4da7-a638-843f88832fa7" height="50%" width="50%" />
 
 
 <h4>MySQL Server Installation Complete</h4>
 
+-Click the box for `Launch the MySQL Instance Configuration Wizard`, so we can open up the MySQL Instance Configuration Wizard Next.
 - Click the `Finish` button to complete the process as shown below.
 
-  <img src="https://github.com/user-attachments/assets/f25efa5f-7392-42cc-8080-a8147fd9cb26" height="50%" width="50%" />
+  <img src="https://github.com/user-attachments/assets/aac12976-1031-48e7-af1a-115fcafa9de5" height="50%" width="50%" />
 
 
----
----
+
+<br />
+
+- Accept the `MySQLInstanceCOnfig.exe` UAC
+
+  <img src="https://github.com/user-attachments/assets/d0e4bbb9-844d-4f04-b93b-876c70a6e45c" height="50%" width="50%" />
+
+
+
 <br />
 <br />
 
+---
 
-<h2>Next Step </h2>
+<h3>MySQL Server Instance Configuration Wizard </h3>
+
+- Click `Next` on the MySQL Server Instance Configuration Wizard.
+
+  <img src="https://github.com/user-attachments/assets/5c5963c2-05dc-44cc-8c00-26b923fb90db" height="50%" width="50%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>Select `Standard Configuration` </h3>
+
+- Select the `Standard Configuration`. 
+
+  <img src="https://github.com/user-attachments/assets/eda2a0d7-6939-4541-b4ac-dbb435501f07" height="50%" width="50%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>Install As Windows Servce</h3>
+
+- Go with the default options here.
+- Click `Next`.
+
+
+  <img src="https://github.com/user-attachments/assets/94c7d615-1afe-4aa1-bd45-127351956a39" height="50%" width="50%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>Set MySQL Root Password</h3>
+
+- Enter in a root password and confirm the password by entering it twice.
+- Click `Next`.
+
+  <img src="https://github.com/user-attachments/assets/34522c28-140f-4afe-aa08-e873894206e7" height="50%" width="50%" />
+
+<br />
+<br />
+
+---
+
+<h3>Execute</h3>
+
+- Click the `Execute` button.
+
+  <img src="https://github.com/user-attachments/assets/3ebe42e9-215f-437b-bab8-c53334c04cde" height="50%" width="50%" />
+
+
+<br />
+<br />
+
+---
+
+<h3>MySQL Installation Completed</h3>
+
+- Click the `Finish` button.
+
+  <img src="https://github.com/user-attachments/assets/3c89cf17-7ac1-4043-818f-1ed1a8a5773e" height="50%" width="50%" />
+
+
+
+
+
+
+
+
+
+
 
 
 
