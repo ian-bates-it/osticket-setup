@@ -1,4 +1,4 @@
-# osTicket Setup
+![image](https://github.com/user-attachments/assets/a65a9ecd-81c1-4cdb-8c43-285025bbcf9d)# osTicket Setup
 
 
 <p align="center">
@@ -360,14 +360,77 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 
 
 
+---
+---
+<br />
+<br />
+
+
+<h2>Open IIS Manager As Admin </h2>
+
+- We need to let IIS know the location of PHP on the Windows 10 client VM. (`C:\PHP`)
+
+1. Search for `IIS`
+   - This should return `Internet Information Services (IIS) Manager`
+2. Select `Run as Administrator` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/8d4739fa-260e-476e-ac37-e68161f9eec0" height="60%" width="60%" />
 
 
 
 
+<br />
+<br />
+
+---
+
+<h3>Open PHP Manager</h3>
+
+- Double-click the icon for `PHP Manager` to open it.
+
+  <img src="https://github.com/user-attachments/assets/0fa6d3d8-f989-460c-bd28-d35a4beb056c" height="60%" width="60%" />
+
+
+<br />
+<br />
+
+---
+
+<h3>Register New PHP Version</h3>
+
+- Click the link `Register new PHP version` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/990ef674-3dc7-472f-97c3-207456479b5c" height="60%" width="60%" />
+
+
+<br />
+<br />
 
 
 
+1. Select button with three dots
+2. Navigate to `C:\PHP` 
+3. Select the PHP executable file (`php-cgi.exe`) 
+4. Click the `Open` button
+
+
+  <img src="https://github.com/user-attachments/assets/eff99b58-22aa-4c1f-895d-703aca9114ab" height="60%" width="60%" />
+
+<br />
+
+5. Click `OK` to confirm the path to the php executable file (`C:\PHP\php-cgi.exe`) as shown below.
+
+  <img src="ttps://github.com/user-attachments/assets/d9cf67a7-6c11-4a4a-9905-6537d767183c" height="40%" width="40%" />
 
 
 
+---
+---
+<br />
+<br />
 
+
+<h2>Reload IIS (Open, Stop and Start the IIS Server)</h2>
+
+
+- 
