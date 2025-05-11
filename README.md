@@ -417,10 +417,13 @@ This is the actual HTML code for the default IIS homepage which appears when we 
   <img src="https://github.com/user-attachments/assets/eff99b58-22aa-4c1f-895d-703aca9114ab" height="60%" width="60%" />
 
 <br />
+<br />
+<br />
+
 
 5. Click `OK` to confirm the path to the php executable file (`C:\PHP\php-cgi.exe`) as shown below.
 
-  <img src="ttps://github.com/user-attachments/assets/d9cf67a7-6c11-4a4a-9905-6537d767183c" height="40%" width="40%" />
+  <img src="https://github.com/user-attachments/assets/d9cf67a7-6c11-4a4a-9905-6537d767183c" height="40%" width="40%" />
 
 
 
@@ -432,5 +435,96 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 
 <h2>Reload IIS (Open, Stop and Start the IIS Server)</h2>
 
+- In the right-hand column of IIS Manager, follow the steps below to stop and start the ISS Server.
 
-- 
+1. Select `Stop`.
+2. Select `Start` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/aff2ed86-f117-45ed-97af-ddec90a78de4" height="60%" width="60%" />
+
+
+
+
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Unzip the osTicket Software To `C:\inpetpub\\wwwroot`</h2>
+
+
+1. In our osTicket-Installation-Files directory, right-click the `osTicket-v1.15.8.zip` file.
+2. Select `Extract All` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/8a7c1a63-6a74-4c91-b7fa-2db868adf46a" height="50%" width="50%" />
+
+
+
+<br />
+<br />
+<br />
+
+3. Select `C:\inpetpub\\wwwroot`as the destination folder for the osTicket extracted files as shown below.
+   - Press the `Extract` button to complete this process.
+
+
+  <img src="https://github.com/user-attachments/assets/fcb85738-3d59-4bbf-9e09-3b53ee00c12e" height="50%" width="50%" />
+
+
+<br />
+<br />
+<br />
+
+---
+
+<h3>Rename Upload Folder to `osTicket`</h3>
+
+4. In the `C:\inpetpub\\wwwroot` directory, right-click the `upload` folder.
+5. Select `Rename`as shown below. 
+
+  <img src="https://github.com/user-attachments/assets/d94ff271-e1f2-4e54-8dfc-a782dfdc1f61" height="50%" width="50%" />
+
+
+<br />
+<br />
+<br />
+
+6. Name the folder `osTicket` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/33cd9d07-a180-445b-9484-284b1fee49a6" height="40%" width="40%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h2>Reload IIS (Open, Stop and Start the IIS Server)</h2>
+
+- After making a change to the `C:\inpetpub\\wwwroot` directory, we will reload the IIS Server again as shown below.
+- In the right-hand column of IIS Manager, follow the steps below to stop and start the ISS Server.
+
+1. Select `Stop`.
+2. Select `Start` as shown below.
+
+  <img src="https://github.com/user-attachments/assets/aff2ed86-f117-45ed-97af-ddec90a78de4" height="60%" width="60%" />
+
+
+
+
+<br />
+<br />
+
+---
+
+<h2>Reload IIS (Open, Stop and Start the IIS Server)</h2>
+
+
+
+
+
+
