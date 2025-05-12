@@ -786,64 +786,10 @@ Now our file has been changed to `ost-config.php`
 
 
 
+
+
 ---
 ---
-<br />
-<br />
-
-
-<h2>Setup osTicket Installer via browser at `localhost/osTIcket/setup`</h2>
-
-- In the edge browser at the address `localhost/osTIcket/setup` we can complete the osTicket installation process by clicking the `Continue >` button as shown below.
-
-    <img src="https://github.com/user-attachments/assets/e2186525-b7e6-4102-b377-164bdbd5816a" height="60%" width="60%" />
-
-
-
-
-<br />
-<br />
-
----
-
-<h3>osTicket System Settings</h3>
-
-- Enter a `Helpdesk Name` and `Default Email`
-
-    <img src="https://github.com/user-attachments/assets/5b081b4b-a593-4787-bf64-80aae9d875be" height="50%" width="50%" />
-
-
-
-<br />
-<br />
-
----
-
-<h3>osTicket Admin User</h3>
-
-- Enter a `First Name` and `Last Name` for the Admin User
-- Enter an Admin User Email
-   - Note that the email address must be different than the email used as the system default email.
-- Create a `Username` that is at least 3 characters long.
-- Create a `Password` and confirm your desired password as shown below.
-
-
-    <img src="https://github.com/user-attachments/assets/1bd2c7d7-6c35-4aa1-b103-83470b3d7c99" height="50%" width="50%" />
-
-
-
-<br />
-<br />
-
----
-
-<h3>osTicket Database Settings</h3>
-
-- We need to set up the credentials to log into our MySQL database.
-- These credentials are for the MySQL database specific to osTicket.
-
-- 
-
 
 <br />
 <br />
@@ -1003,6 +949,76 @@ The actual installation that is happening in the browser (osTicket edge) is goin
 <br />
 
 ---
+
+
+
+
+
+
+
+---
+---
+<br />
+<br />
+
+
+<h2>Setup osTicket Installer via browser at `localhost/osTIcket/setup`</h2>
+
+- In the edge browser at the address `localhost/osTIcket/setup` we can complete the osTicket installation process by clicking the `Continue >` button as shown below.
+
+    <img src="https://github.com/user-attachments/assets/e2186525-b7e6-4102-b377-164bdbd5816a" height="60%" width="60%" />
+
+
+
+
+<br />
+<br />
+
+---
+
+<h3>osTicket System Settings</h3>
+
+- Enter a `Helpdesk Name` and `Default Email`
+
+    <img src="https://github.com/user-attachments/assets/5b081b4b-a593-4787-bf64-80aae9d875be" height="50%" width="50%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>osTicket Admin User</h3>
+
+- Enter a `First Name` and `Last Name` for the Admin User
+- Enter an Admin User Email
+   - Note that the email address must be different than the email used as the system default email.
+- Create a `Username` that is at least 3 characters long.
+- Create a `Password` and confirm your desired password as shown below.
+
+
+    <img src="https://github.com/user-attachments/assets/1bd2c7d7-6c35-4aa1-b103-83470b3d7c99" height="50%" width="50%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>osTicket Database Settings</h3>
+
+- We need to set up the credentials to log into our MySQL database.
+- These credentials are for the MySQL database specific to osTicket.
+
+- 
+
+
+![image](https://github.com/user-attachments/assets/c9a127a4-54df-4ad7-8887-884eac793989)
+
+
+
 
 <h2>Continue setting up osTicket in the browser</h2>
 
