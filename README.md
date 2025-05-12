@@ -1,4 +1,9 @@
-![image](https://github.com/user-attachments/assets/a65a9ecd-81c1-4cdb-8c43-285025bbcf9d)# osTicket Setup
+<!--
+Duplicate Register New PHP version in IIS Manager
+![image](https://github.com/user-attachments/assets/a65a9ecd-81c1-4cdb-8c43-285025bbcf9d)
+-->
+
+# osTicket Setup
 
 
 <p align="center">
@@ -929,6 +934,62 @@ Now our file has been changed to `ost-config.php`
 ---
 
 <h3>Enter MySQL credentials</h3>
+
+- In the HeidiSQL Settings, enter the [MySQL root username and password that we set up above at this link.](https://github.com/ian-bates-it/osticket-setup/blob/main/README.md#set-mysql-root-password).
+- Then click `Open` as shown below.
+
+    <img src="https://github.com/user-attachments/assets/39210cc9-2451-4d3a-a9c8-14c950e2e507" height="50%" width="50%" />
+
+
+
+
+<br />
+<br />
+
+
+---
+
+<h3>We Opened A Connection Between HeidiSQL and our MySQL Database</h3>
+
+- We created a new session between HeidiSQL and our MySQL database.
+- We connected to that session.
+
+
+
+<br />
+<br />
+
+
+---
+
+<h3>Create a Database called `osTicket`</h3>
+
+1. Right-click the `Unnamed` 
+2. Select `Create new`
+3. Select `Database` as shown below.
+
+    <img src="https://github.com/user-attachments/assets/08c4faf1-408a-4f82-b468-bfb7ce0e7af7" height="60%" width="60%" />
+
+
+
+<br />
+<br />
+
+4. Name the new database `osTicket`
+5. Click `OK` as shown below.
+
+    <img src="https://github.com/user-attachments/assets/870374be-4add-4fdc-b963-135ed339443c" height="40%" width="40%" />
+
+
+
+---
+
+<h3>Empty osticket Database in HeidiSQL</h3>
+
+    <img src="https://github.com/user-attachments/assets/7e458667-e312-4446-9afa-3519880671a5" height="50%" width="50%" />
+
+
+
 
 
 
