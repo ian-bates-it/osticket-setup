@@ -333,7 +333,7 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 
 ---
 
-<h3>Set MySQL Root Password</h3>
+<h3>Set MySQL Root Password in MySQL</h3>
 
 - Enter in a root password and confirm the password by entering it twice.
 - Click `Next`.
@@ -908,7 +908,7 @@ Now our file has been changed to `ost-config.php`
 
 ---
 
-<h3>Create a Database called `osTicket`</h3>
+<h3>Create a Database called `osTicket` in HeidiSQL</h3>
 
 1. Right-click the `Unnamed` 
 2. Select `Create new`
@@ -1015,7 +1015,7 @@ The actual installation that is happening in the browser (osTicket edge) is goin
 - Use the default values for **MySQL Table Prefix** (`ost_`).
 - Use the default values for **MySQL Hostname** (`localhost`).
 
-- MySQL Database name is the same database name [we created in the HeidiMySQL section above which you can view at this link.](https://github.com/user-attachments/assets/c9a127a4-54df-4ad7-8887-884eac793989)
+- MySQL Database name is the same database name [we created in the HeidiMySQL section above which you can view at this link.](https://github.com/ian-bates-it/osticket-setup/blob/main/README.md#create-a-database-called-osticket)
 - In this example, that name was `osTicket` as shown below. 
 
 
@@ -1026,7 +1026,7 @@ The actual installation that is happening in the browser (osTicket edge) is goin
 <br />
 <br />
 
-- The **MySQL Username** and  **MySQL Password** is the same that [we set up in the MySQL setup section above which you can view at this link](). 
+- The **MySQL Username** and  **MySQL Password** is the same that [we set up in the MySQL setup section above which you can view at this link](https://github.com/ian-bates-it/osticket-setup/blob/main/README.md#set-mysql-root-password). 
 - In this example, the username was `root`.
 
 
