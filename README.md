@@ -1078,6 +1078,6 @@ The actual installation that is happening in the browser (osTicket edge) is goin
 
 <h3>osTicket Installation is Complete</h3>
 
-- The next step is the [osTicket Post Installation Setup which is oulined at this link].(https://github.com/ian-bates-it/osticket-post-installation-setup)
+- The next step is the [osTicket Post Installation Setup which is oulined at this link](https://github.com/ian-bates-it/osticket-post-installation-setup).
 
 
