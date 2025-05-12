@@ -998,7 +998,8 @@ The actual installation that is happening in the browser (osTicket edge) is goin
 - Create a `Password` and confirm your desired password as shown below.
 
 
-    <img src="https://github.com/user-attachments/assets/1bd2c7d7-6c35-4aa1-b103-83470b3d7c99" height="50%" width="50%" />
+    <img src="https://github.com/user-attachments/assets/d86685be-4832-4725-9ca8-9693f89bf31c" height="50%" width="50%" />
+
 
 
 
@@ -1029,8 +1030,54 @@ The actual installation that is happening in the browser (osTicket edge) is goin
 - The **MySQL Username** and  **MySQL Password** is the same that [we set up in the MySQL setup section above which you can view at this link](https://github.com/ian-bates-it/osticket-setup/blob/main/README.md#set-mysql-root-password). 
 - In this example, the username was `root`.
 
+    <img src="https://github.com/user-attachments/assets/897ecde6-f1f3-4e6a-867e-5874642c671d" height="60%" width="60%" />
+
+<br />
+<br />
+<br />
+
+
+- Finally, click the `Install Now` button to start the `osTicket` installation process as shown below.
+
+    <img src="https://github.com/user-attachments/assets/6672b0d8-b9dd-48e8-b942-b1ec6b808737" height="60%" width="60%" />
 
 
 
+<br />
+<br />
+
+---
+
+<h3>osTicket Successfully Installed!</h3>
+
+- Confirmation from osTicket Installer should look something like this:
+
+    <img src="https://github.com/user-attachments/assets/21c1beea-7e65-493f-9508-247b3c96982b" height="60%" width="60%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>Check `osTicket` database in HeidiSQL</h3>
+
+- Now when we refresh the `osticket` database in HeidiSQL, we can see the installation added many tables into our database as shown below.
+
+    <img src="https://github.com/user-attachments/assets/b9586a84-b6f1-48a7-b149-200cfd12ad71" height="60%" width="60%" />
+
+
+
+
+
+<br />
+<br />
+
+---
+
+<h3>osTicket Installation is Complete</h3>
+
+- The next step is the [osTicket Post Installation Setup which is oulined at this link].(https://github.com/ian-bates-it/osticket-post-installation-setup)
 
 
