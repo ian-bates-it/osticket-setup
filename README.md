@@ -276,7 +276,7 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 
 <br />
 
-- Accept the `MySQLInstanceCOnfig.exe` UAC
+- Accept the `MySQLInstanceConfig.exe` UAC
 
   <img src="https://github.com/user-attachments/assets/d0e4bbb9-844d-4f04-b93b-876c70a6e45c" height="50%" width="50%" />
 
@@ -772,6 +772,7 @@ Now our file has been changed to `ost-config.php`
 <h4>Advanced Security Settings for ost-config.php</h4>
 
 - The final settings for `ost-config.php` for testing purposes only, has granted Everyone full control as shown below.
+- osTicket has full control to the configuration file. (32:23)
 
 14. To apply our changes, click the `Apply` button
 15. Finally, click the `OK` button to complete this process as shown below. 
@@ -792,6 +793,142 @@ Now our file has been changed to `ost-config.php`
 
     <img src="https://github.com/user-attachments/assets/e2186525-b7e6-4102-b377-164bdbd5816a" height="60%" width="60%" />
 
+
+
+
+<br />
+<br />
+
+---
+
+<h3>osTicket System Settings</h3>
+
+- Enter a `Helpdesk Name` and `Default Email`
+
+    <img src="https://github.com/user-attachments/assets/5b081b4b-a593-4787-bf64-80aae9d875be" height="50%" width="50%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>osTicket Admin User</h3>
+
+- Enter a `First Name` and `Last Name` for the Admin User
+- Enter an Admin User Email
+   - Note that the email address must be different than the email used as the system default email.
+- Create a `Username` that is at least 3 characters long.
+- Create a `Password` and confirm your desired password as shown below.
+
+
+    <img src="https://github.com/user-attachments/assets/1bd2c7d7-6c35-4aa1-b103-83470b3d7c99" height="50%" width="50%" />
+
+
+
+<br />
+<br />
+
+---
+
+<h3>osTicket Database Settings</h3>
+
+- We need to set up the credentials to log into our MySQL database.
+- These credentials are for the MySQL database specific to osTicket.
+
+- 
+
+
+<br />
+<br />
+
+---
+
+<h2>HeidiSQL Setup</h2>
+
+- Heidi SQL is an application that allows us to make a connection to our database and configure it. 
+
+- In our `osTicket-Installation-Files` folder, click on the Heidi SQL installer file (`HeidiSQL_12.3.0.6589_Setup.exe`) as shown below. 
+
+    <img src="https://github.com/user-attachments/assets/a53766db-e11a-46de-85da-b8a7065018c2" height="50%" width="50%" />
+
+
+<br />
+<br />
+
+- Click `Yes` to the HeidiSQL Setup UAC notification
+
+    <img src="https://github.com/user-attachments/assets/e7d15551-b373-41ee-a8a7-5feeb3b89503" height="30%" width="30%" />
+
+
+
+<br />
+<br />
+
+
+- Accept the License Agreement
+- Click `Next`
+
+    <img src="https://github.com/user-attachments/assets/51149da6-3874-4b98-831b-0ce21cb53819" height="40%" width="40%" />
+
+
+
+<br />
+<br />
+<br />
+
+
+- Accept default installation location (`C:\Program Files\HeidiSQL`). Click `Next`.
+
+    <img src="https://github.com/user-attachments/assets/5f4bb0eb-1bd4-4927-ba75-e8c0e425b9d6" height="40%" width="40%" />
+
+
+
+<br />
+<br />
+<br />
+
+
+- Accept the rest of the default options.
+- Then click `Install` to complete this process.
+
+    <img src="https://github.com/user-attachments/assets/cce3e789-9eff-4711-8b21-14bfbacd3c58" height="40%" width="40%" />
+
+
+<br />
+<br />
+<br />
+
+- Click the button to `Launch HeidiSQL`.
+- Click the `Finish` button. 
+
+    <img src="https://github.com/user-attachments/assets/79bf8e49-6735-4c94-a54d-2ac1be267cee" height="40%" width="40%" />
+
+
+
+<br />
+<br />
+<br />
+
+
+---
+
+<h3>HeidiSQL Session Manager</h3>
+
+- With HeidiSQL, we are going to make a connection to our database.
+- In the `HeidiSQL Session Manager` select the `New` button as shown below.
+
+    <img src="https://github.com/user-attachments/assets/2fef0469-b012-4533-a8c5-3cc2dc46fd93" height="40%" width="40%" />
+
+
+<br />
+<br />
+
+
+---
+
+<h3>Enter MySQL credentials</h3>
 
 
 
