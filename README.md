@@ -980,13 +980,34 @@ Now our file has been changed to `ost-config.php`
 
     <img src="https://github.com/user-attachments/assets/870374be-4add-4fdc-b963-135ed339443c" height="40%" width="40%" />
 
-
+<br />
+<br />
 
 ---
 
-<h3>Empty osticket Database in HeidiSQL</h3>
+<h4>Empty `osticket` database</h4>
 
-    <img src="https://github.com/user-attachments/assets/7e458667-e312-4446-9afa-3519880671a5" height="50%" width="50%" />
+- We have an empty database called `osticket` now.
+
+    <img src="https://github.com/user-attachments/assets/6e103456-5d23-4231-8d01-7d42c8373033" height="40%" width="40%" />
+
+
+The actual installation that is happening in the browser (osTicket edge) is going to make use of this empty database we created in HeidiSQL. (36:15)
+
+
+
+
+
+
+<br />
+<br />
+
+---
+
+<h2>Continue setting up osTicket in the browser</h2>
+
+
+- 36:27
 
 
 
