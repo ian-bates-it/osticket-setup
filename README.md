@@ -1009,21 +1009,25 @@ The actual installation that is happening in the browser (osTicket edge) is goin
 
 <h3>osTicket Database Settings</h3>
 
-- We need to set up the credentials to log into our MySQL database.
-- These credentials are for the MySQL database specific to osTicket.
-
-- 
+- We need to set up the credentials to log into our MySQL database which will handle our osTicket installation.
 
 
-![image](https://github.com/user-attachments/assets/c9a127a4-54df-4ad7-8887-884eac793989)
+- Use the default values for **MySQL Table Prefix** (`ost_`).
+- Use the default values for **MySQL Hostname** (`localhost`).
+
+- MySQL Database name is the same database name [we created in the HeidiMySQL section above which you can view at this link.](https://github.com/user-attachments/assets/c9a127a4-54df-4ad7-8887-884eac793989)
+- In this example, that name was `osTicket` as shown below. 
 
 
+    <img src="https://github.com/user-attachments/assets/c9a127a4-54df-4ad7-8887-884eac793989" height="70%" width="70%" />
 
 
-<h2>Continue setting up osTicket in the browser</h2>
+<br />
+<br />
+<br />
 
-
-- 36:27
+- The **MySQL Username** and  **MySQL Password** is the same that [we set up in the MySQL setup section above which you can view at this link](). 
+- In this example, the username was `root`.
 
 
 
