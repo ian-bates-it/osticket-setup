@@ -32,30 +32,47 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 
 ---
 
-## Install osTicket Software
+## List of Prerequisites
 
 
 - The installation files at this download link were aggregated from the osTicket Documentation.
     - Download link: [https://tinyurl.com/osticket-files](https://tinyurl.com/osticket-files)
 
 - The installation files are in a folder called `osTicket-Installation-Files`
-  - VC_redist.x86.exe
-  - rewrite_amd64_en-US.msi
-  - PHP ManagerForIIS_V1.5.0.msi
-  - php-7.3.8-nts-Win32-VC15-x86.zip
-  - osTicket-v1.15.8.zip
-  - mysql-5.5.62-win32.msi
-  - HeidiSQL_12.3.0.6589_Setup.exe
-
-
-  <img src="https://github.com/user-attachments/assets/05f8e974-c85b-4ff3-a621-183de6d796f0" height="40%" width="40%" />
-
-
+  - Mcirosoft Visual C++ Redistributable (x86) (`VC_redist.x86.exe`)
+  - IIS URL Rewrite Module 2 (`rewrite_amd64_en-US.msi`)
+  - PHP Manager For IIS (`PHP ManagerForIIS_V1.5.0.msi`)
+  - PHP version 7.3.8 (`php-7.3.8-nts-Win32-VC15-x86.zip`)
+  - osTicket Software version 1.15.8 (`osTicket-v1.15.8.zip`)
+  - MySQL version 5.5.62 (`mysql-5.5.62-win32.msi`)
+  - HeidiSQL (`HeidiSQL_12.3.0.6589_Setup.exe`)
 
 <br />
 <br />
 
-## Enable IIS
+  <img src="https://github.com/user-attachments/assets/05f8e974-c85b-4ff3-a621-183de6d796f0" height="50%" width="50%" />
+
+<br />
+
+
+<h2>Table of Contents</h2>
+
+1. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#enable-iis">Enable IIS</a>
+2. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-php-manager-for-iis">Install PHP Manager for IIS</a>
+3. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-the-iis-url-rewrite-module">Install IIS URL Rewrite Module 2</a>
+4. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-the-iis-url-rewrite-module">Install IIS URL Rewrite Module 2</a>
+5. x
+6. x
+7. x
+8. 
+
+
+
+
+
+## Enable IIS (Internet Information Services)
+
+- To enable IIS, follow the steps outlined below.
 
 ---
 <br />
@@ -65,11 +82,39 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 - Navigate to the Control Panel and then click on `Programs`
 - THen click on `Turn Windows features on or off` as shown below.
 
-  <img src="" height="50%" width="50%" />
+  <img src="https://github.com/user-attachments/assets/ff1c23c2-c0bc-4d58-8c8f-4f1ee657b5f7" height="70%" width="70%" />
+
+
+---
+<br />
+
+<h3>Windows Features</h3>
+
+- In the `Windows Features` view, scroll down and check `Internet Information Services`
+      - Then open the view for `World Wide Web Services`
+          - Then open up the view for `Application Development Features
+              - Then select the check box for `CGI` as shown below.
+
+
+  <img src="https://github.com/user-attachments/assets/bb451488-3c3e-45d4-aa5f-355355e97633" height="50%" width="50%" />
 
 
 ---
 
+<br />
+<br />
+
+- Now Windows has enabled the Internet Information Services (IIS) has been enabled with `CGI`.
+
+  ![image](https://github.com/user-attachments/assets/7fa8e6ba-c8dd-4c6d-b2c2-63c503b2f4ea)
+
+<br />
+<br />
+
+- In a browser, we can confirm IIS is running by visiting our loopback address of `127.0.0.1`.
+- We can see the default IIS landing page as shown below.
+
+  <img src="https://github.com/user-attachments/assets/8f7278ae-c8e2-40b6-a91f-becfa5681d2e" height="60%" width="60%" />
 
 
 ---
@@ -212,7 +257,7 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 <br />
 
 
-<h2>Create A Directory called `PHP` on the C Drive (`C:\PHP`)</h2>
+<h2>Install `PHP` Version 7.3.8 on the C Drive (`C:\PHP`)</h2>
 
 - Create a new directory on the C Drive named `PHP`
 
