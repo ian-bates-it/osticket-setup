@@ -60,13 +60,11 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 1. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#enable-iis">Enable IIS</a>
 2. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-php-manager-for-iis">Install PHP Manager for IIS</a>
 3. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-the-iis-url-rewrite-module">Install IIS URL Rewrite Module 2</a>
-4. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-the-iis-url-rewrite-module">Install IIS URL Rewrite Module 2</a>
-5. x
+4. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-php-version-738-on-the-c-drive-cphp">Install `PHP` Version 7.3.8</a>
+5. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-php-version-738-on-the-c-drive-cphp">Install Microsoft C++ Redistributable (x86)</a>
 6. x
 7. x
 8. 
-
-
 
 
 
@@ -280,7 +278,7 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 <br />
 
 
-<h2>Install C++ Distributable `VC_redis.x86.exe` </h2>
+<h2>Install C++ Redistributable (x86) `VC_redis.x86.exe` </h2>
 
 - This is another requirement for osTicket.
 
