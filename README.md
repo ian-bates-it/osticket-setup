@@ -10,24 +10,62 @@ Duplicate Register New PHP version in IIS Manager
 <img src="https://github.com/user-attachments/assets/8cf1eaae-fbac-49a4-bbbb-11c28e64aa98" height="30%" width="30%"/>
 </p>
 
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+
 <!--
 https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 -->
 
 ---
 
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Internet Information Services (IIS)
+
+
+<h2>Operating Systems Used </h2>
+
+- Windows 10</b> (21H2)
+
+
+---
+
 ## Install osTicket Software
 
 
-- The installation files at this download link were aggregated from the osTicket Documentation. (16:38)
+- The installation files at this download link were aggregated from the osTicket Documentation.
+    - Download link: [https://tinyurl.com/osticket-files](https://tinyurl.com/osticket-files)
+
+- The installation files are in a folder called `osTicket-Installation-Files`
+  - VC_redist.x86.exe
+  - rewrite_amd64_en-US.msi
+  - PHP ManagerForIIS_V1.5.0.msi
+  - php-7.3.8-nts-Win32-VC15-x86.zip
+  - osTicket-v1.15.8.zip
+  - mysql-5.5.62-win32.msi
+  - HeidiSQL_12.3.0.6589_Setup.exe
+
+
+  <img src="https://github.com/user-attachments/assets/05f8e974-c85b-4ff3-a621-183de6d796f0" height="40%" width="40%" />
+
+
 
 <br />
 <br />
 
 ## Enable IIS
 
+---
 <br />
-<br />
+
+<h3>Control Panel > Programs</h3>
+
+- Navigate to the Control Panel and then click on `Programs`
+- THen click on `Turn Windows features on or off` as shown below.
+
+  <img src="" height="50%" width="50%" />
 
 
 ---
