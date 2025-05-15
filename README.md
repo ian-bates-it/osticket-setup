@@ -34,11 +34,9 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 
 ## List of Prerequisites
 
+- The installation files at this download link ([https://tinyurl.com/osticket-files](https://tinyurl.com/osticket-files)) were aggregated from the osTicket Documentation and are stored in a file on the VM called `osTicket-Installation-Files`.
 
-- The installation files at this download link were aggregated from the osTicket Documentation.
-    - Download link: [https://tinyurl.com/osticket-files](https://tinyurl.com/osticket-files)
-
-- The installation files are in a folder called `osTicket-Installation-Files`
+- The installation files are the following:
   - Mcirosoft Visual C++ Redistributable (x86) (`VC_redist.x86.exe`)
   - IIS URL Rewrite Module 2 (`rewrite_amd64_en-US.msi`)
   - PHP Manager For IIS (`PHP ManagerForIIS_V1.5.0.msi`)
@@ -64,9 +62,13 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 4. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-php-version-738-on-the-c-drive-cphp">Install `PHP` Version 7.3.8</a>
 5. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-c-redistributable-x86-vc_redisx86exe-">Install Microsoft C++ Redistributable (x86)</a>
 6. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-mysql-version-5562-mysql-5562-win32msi-">Install MySQL version 5.5.62</a>
-7. <a href="">Register PHP v.7.3.8 in IIS Manager</a>
-8. x
-9. 
+7. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#register-php-v738-in-iis-manager">Register PHP v.7.3.8 in IIS Manager</a>
+8. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#unzip-the-osticket-software-to-cinpetpubwwwroot">Install osTicket v.1.15.8 Software</a>
+9. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#enable-missing-extensions-for-osticket">Enable Missing Extensions For osTicket</a>
+10. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#rename-ost-sampleconfigphp-to-ost-configphp">Rename `ost-sampleconfig.php` to `ost-config.php`</a>
+11. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#assign-desired-permissions-to-ost-configphp">Edit The Permissions for `ost-config.php`</a>
+12. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#heidisql-setup">Install HeidiSQL and create a database called `osTicket`</a>
+13. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#setup-osticket-installer-via-browser-at-localhostosticketsetup">Complete the osTicket Installation via the web browser wizard</a>
 
 
 
