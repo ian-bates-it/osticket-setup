@@ -48,11 +48,12 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
   - HeidiSQL (`HeidiSQL_12.3.0.6589_Setup.exe`)
 
 <br />
-<br />
+
+<!--
 
   <img src="https://github.com/user-attachments/assets/05f8e974-c85b-4ff3-a621-183de6d796f0" height="50%" width="50%" />
 
-<br />
+-->
 
 
 <h2>Table of Contents</h2>
@@ -61,10 +62,11 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 2. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-php-manager-for-iis">Install PHP Manager for IIS</a>
 3. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-the-iis-url-rewrite-module">Install IIS URL Rewrite Module 2</a>
 4. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-php-version-738-on-the-c-drive-cphp">Install `PHP` Version 7.3.8</a>
-5. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-php-version-738-on-the-c-drive-cphp">Install Microsoft C++ Redistributable (x86)</a>
-6. x
-7. x
-8. 
+5. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-c-redistributable-x86-vc_redisx86exe-">Install Microsoft C++ Redistributable (x86)</a>
+6. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-mysql-version-5562-mysql-5562-win32msi-">Install MySQL version 5.5.62</a>
+7. <a href="">Register PHP v.7.3.8 in IIS Manager</a>
+8. x
+9. 
 
 
 
@@ -452,13 +454,13 @@ This is the actual HTML code for the default IIS homepage which appears when we 
 <br />
 
 
-<h2>Open IIS Manager As Admin </h2>
+<h2>Register PHP v.7.3.8 in IIS Manager</h2>
 
 - We need to let IIS know the location of PHP on the Windows 10 client VM. (`C:\PHP`)
 
 1. Search for `IIS`
    - This should return `Internet Information Services (IIS) Manager`
-2. Select `Run as Administrator` as shown below.
+2. Select **`Run as Administrator`** as shown below.
 
   <img src="https://github.com/user-attachments/assets/8d4739fa-260e-476e-ac37-e68161f9eec0" height="60%" width="60%" />
 
