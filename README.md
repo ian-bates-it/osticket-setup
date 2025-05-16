@@ -3,12 +3,12 @@ Duplicate Register New PHP version in IIS Manager
 ![image](https://github.com/user-attachments/assets/a65a9ecd-81c1-4cdb-8c43-285025bbcf9d)
 -->
 
-# osTicket Setup
-
-
 <p align="center">
 <img src="https://github.com/user-attachments/assets/8cf1eaae-fbac-49a4-bbbb-11c28e64aa98" height="30%" width="30%"/>
 </p>
+
+# osTicket Setup
+
 
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
@@ -23,27 +23,28 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- The installation files for this lab can be found at this download link ([https://tinyurl.com/osticket-files](https://tinyurl.com/osticket-files)) and were aggregated from the osTicket Documentation.
+  - The download link contains a file named `osTicket-Installation-Files` which include the following executables:
+    - Mcirosoft Visual C++ Redistributable (x86) (`VC_redist.x86.exe`)
+    - IIS URL Rewrite Module 2 (`rewrite_amd64_en-US.msi`)
+    - PHP Manager For IIS (`PHP ManagerForIIS_V1.5.0.msi`)
+    - PHP version 7.3.8 (`php-7.3.8-nts-Win32-VC15-x86.zip`)
+    - osTicket Software version 1.15.8 (`osTicket-v1.15.8.zip`)
+    - MySQL version 5.5.62 (`mysql-5.5.62-win32.msi`)
+    - HeidiSQL (`HeidiSQL_12.3.0.6589_Setup.exe`)
 
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10 Pro (21H2)
 
 
 ---
 
 ## List of Prerequisites
 
-- The installation files at this download link ([https://tinyurl.com/osticket-files](https://tinyurl.com/osticket-files)) were aggregated from the osTicket Documentation and are stored in a file on the VM called `osTicket-Installation-Files`.
-
-- The installation files are the following:
-  - Mcirosoft Visual C++ Redistributable (x86) (`VC_redist.x86.exe`)
-  - IIS URL Rewrite Module 2 (`rewrite_amd64_en-US.msi`)
-  - PHP Manager For IIS (`PHP ManagerForIIS_V1.5.0.msi`)
-  - PHP version 7.3.8 (`php-7.3.8-nts-Win32-VC15-x86.zip`)
-  - osTicket Software version 1.15.8 (`osTicket-v1.15.8.zip`)
-  - MySQL version 5.5.62 (`mysql-5.5.62-win32.msi`)
-  - HeidiSQL (`HeidiSQL_12.3.0.6589_Setup.exe`)
+- [Complete Chapter 1, Part 2 of the Active Directory Home Lab, Creating a Windows 10 Pro Virtual Machine (version 22H2) in Azure](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#part-2) 
+  - _Or access to any Windows 10  or 11 operating system will be required for this particular series on osTicket._
 
 <br />
 
@@ -54,7 +55,7 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 -->
 
 
-<h2>Table of Contents</h2>
+<h2>High-Level Configuration Steps</h2>
 
 1. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#enable-iis">Enable IIS</a>
 2. <a href="https://github.com/ian-bates-it/osticket-setup?tab=readme-ov-file#install-php-manager-for-iis">Install PHP Manager for IIS</a>
