@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
     - PHP version 7.3.8 (`php-7.3.8-nts-Win32-VC15-x86.zip`)
     - osTicket Software version 1.15.8 (`osTicket-v1.15.8.zip`)
     - MySQL version 5.5.62 (`mysql-5.5.62-win32.msi`)
-    - HeidiSQL (`HeidiSQL_12.3.0.6589_Setup.exe`)
+    - HeidiSQL version 12.3.0.6589 (`HeidiSQL_12.3.0.6589_Setup.exe`)
 
 
 <h2>Operating Systems Used </h2>
