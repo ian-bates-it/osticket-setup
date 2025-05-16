@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/046c7817-d6d6-462e-a48e-11ae3efd9ba1
 
 ---
 
-## List of Prerequisites
+## Prerequisites
 
 - [Complete Chapter 1, Part 2 of the Active Directory Home Lab, Creating a Windows 10 Pro Virtual Machine (version 22H2) in Azure](https://github.com/ian-bates-it/Azure-Virtual-Machine-Setup?tab=readme-ov-file#part-2) 
   - _Or access to any Windows 10  or 11 operating system will be required for this particular series on osTicket._
