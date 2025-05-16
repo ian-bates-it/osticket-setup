@@ -7,7 +7,7 @@ Duplicate Register New PHP version in IIS Manager
 <img src="https://github.com/user-attachments/assets/8cf1eaae-fbac-49a4-bbbb-11c28e64aa98" height="30%" width="30%"/>
 </p>
 
-# osTicket Setup
+# Chapter 1: osTicket Setup
 
 
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
